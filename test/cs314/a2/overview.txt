@@ -1,0 +1,10 @@
+Creating the World.java and Coordinate.java classes was not particularly difficult.
+I ran into some issues with the way Java handles modular math, specifically taking the mod
+of a negative number. I ended up doing the modular math manually instead of depending on the mod
+symbol. 
+
+In World, I assumed that the inputs for get(x,y) and put(x,y,o) would be valid and did
+not check the values, per the assignment instructions. However, I did make sure that invalid
+values for x and y would throw exceptions in my test cases.
+
+
